@@ -1,3 +1,5 @@
-console.log("Its first");
+function sum(a, b) {
+  return a + b;
+}
 
-console.log("Dev");
+module.exports = sum;
